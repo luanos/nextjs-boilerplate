@@ -1,4 +1,4 @@
-import type { AppProps } from "@types";
+import type { AppProps } from "@src/types";
 
 function MyApp({ Component, pageProps }: AppProps) {
   const getLayout = Component.getLayout ?? ((page) => page);

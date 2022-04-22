@@ -1,4 +1,4 @@
-import type { NextPage } from "@types";
+import type { NextPage } from "@src/types";
 
 const Home: NextPage = () => {
   return <div>Start here</div>;
